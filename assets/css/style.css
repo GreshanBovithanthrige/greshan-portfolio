@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Greshan Portfolio
+   Global Styles
+   Version: 1.0
+   ========================================================================== */
+
+/* ==========================================================================
+   CSS Variables
+   ========================================================================== */
+
+:root{
+
+    /* Primary Colours */
+
+    --primary-color:#2563EB;
+    --secondary-color:#0F172A;
+    --accent-color:#06B6D4;
+
+    /* Background */
+
+    --background-color:#F8FAFC;
+    --surface-color:#FFFFFF;
+
+    /* Text */
+
+    --text-primary:#1E293B;
+    --text-secondary:#64748B;
+
+    /* Borders */
+
+    --border-color:#E2E8F0;
+
+    /* Border Radius */
+
+    --border-radius:12px;
+
+    /* Shadows */
+
+    --shadow-sm:0 2px 8px rgba(0,0,0,.05);
+    --shadow-md:0 8px 24px rgba(0,0,0,.08);
+
+}
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+    background:var(--background-color);
+    color:var(--text-primary);
+
+    line-height:1.7;
+
+}
+
+/* ==========================================================================
+   Headings
+   ========================================================================== */
+
+h1,h2,h3,h4,h5,h6{
+
+    font-weight:700;
+
+    color:var(--secondary-color);
+
+}
+
+section{
+
+    padding:100px 0;
+
+}
