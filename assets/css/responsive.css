@@ -21,6 +21,7 @@
     .projects-section { padding: 4rem 0; }
     .skills-section { padding: 4rem 0; }
     .journey-section { padding: 4rem 0; }
+    .innovation-section { padding: 4rem 0; }
     .about-facts { grid-template-columns: 1fr; }
     .fact-card { min-height: auto; flex-direction: row; align-items: center; gap: 1rem; }
     .fact-card > i { flex: 0 0 auto; margin: 0; }
@@ -36,4 +37,10 @@
     .timeline-promotion p { text-align: left; }
     .sdl-section { grid-template-columns: 1fr; gap: 1rem; padding: 1.25rem; }
     .philosophy-section { gap: 1rem; }
+    .innovation-card--featured .card-body { padding: 1.2rem; }
+    .generator-schematic { min-height: 13rem; }
+    .beyond-engineering { gap: 0.9rem; padding: 1.2rem; }
+    .detail-hero { padding: 6rem 0 3rem; }
+    .detail-shell { padding: 3rem 0; }
+    .detail-shell .card { padding: 1.4rem; }
 }
