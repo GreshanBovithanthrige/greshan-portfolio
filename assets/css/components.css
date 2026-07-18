@@ -1,11 +1,18 @@
 /* Navigation and reusable hero components. */
 .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--secondary-color);
     font-size: 1.35rem;
     font-weight: 800;
-    letter-spacing: -0.08em;
+    letter-spacing: -0.04em;
+    text-decoration: none;
 }
 
-.navbar-brand span { color: var(--primary-color); }
+.brand-monogram { display: grid; width: 2rem; height: 2rem; place-items: center; color: #fff; font-size: 0.75rem; letter-spacing: -0.04em; background: var(--primary-color); border-radius: 0.45rem; }
+.brand-name { font-size: 0.98rem; letter-spacing: -0.03em; }
+.brand-name span { color: var(--primary-color); }
 
 .navbar-toggler {
     padding: 0.45rem;
@@ -81,6 +88,10 @@
     font-size: clamp(1rem, 1.6vw, 1.16rem);
 }
 
+.hero-role { margin-bottom: 0.85rem; color: var(--text-primary); font-size: clamp(1.05rem, 1.9vw, 1.3rem); font-weight: 500; }
+.hero-role strong { color: var(--primary-color); font-weight: 700; }
+.hero-identity { max-width: 40rem; margin: -0.7rem 0 2rem; color: var(--text-secondary); font-size: 0.9rem; }
+
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 2rem; }
 
 .btn { font-weight: 600; }
@@ -95,11 +106,9 @@
 .hero-socials a { display: grid; width: 2.25rem; height: 2.25rem; place-items: center; border: 1px solid var(--border-color); border-radius: 50%; text-decoration: none; transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease, transform 160ms ease; }
 .hero-socials a:hover { color: #fff; background: var(--primary-color); border-color: var(--primary-color); transform: translateY(-2px); }
 
-.profile-card { position: relative; width: min(100%, 27rem); aspect-ratio: 0.9; overflow: hidden; background: linear-gradient(145deg, #eef5ff, #dcecff); border: 1px solid #c9dcf8; border-radius: 1.25rem; box-shadow: var(--shadow-md); }
+.profile-card { position: relative; width: min(100%, 29rem); margin: 0; overflow: hidden; background: linear-gradient(145deg, #eef5ff, #dcecff); border: 1px solid #c9dcf8; border-radius: 1.25rem; box-shadow: var(--shadow-md); }
 .profile-card__grid { position: absolute; inset: 0; opacity: 0.42; background-image: linear-gradient(#b9d3f4 1px, transparent 1px), linear-gradient(90deg, #b9d3f4 1px, transparent 1px); background-size: 2rem 2rem; mask-image: linear-gradient(to bottom, #000, transparent 80%); }
-.profile-placeholder { position: absolute; inset: 18% 14%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.75rem; color: #3972ae; background: rgba(255, 255, 255, 0.68); border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 1rem; backdrop-filter: blur(8px); }
-.profile-placeholder i { font-size: 4.25rem; }
-.profile-placeholder span { font-size: 0.9rem; font-weight: 700; }
+.profile-image { position: relative; z-index: 1; display: block; width: 100%; height: auto; min-height: 20rem; object-fit: contain; object-position: center; }
 .profile-card__status { position: absolute; right: 1rem; bottom: 1rem; display: flex; align-items: center; gap: 0.45rem; padding: 0.5rem 0.7rem; color: #1f5c35; font-size: 0.72rem; font-weight: 700; background: rgba(255, 255, 255, 0.94); border: 1px solid rgba(255, 255, 255, 0.98); border-radius: 999px; box-shadow: var(--shadow-sm); }
 .profile-card__status span { width: 0.5rem; height: 0.5rem; background: var(--success-color); border-radius: 50%; }
 

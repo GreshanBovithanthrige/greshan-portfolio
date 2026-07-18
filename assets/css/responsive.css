@@ -15,6 +15,8 @@
     .hero h1 { max-width: 11ch; }
     .hero-actions .btn { width: 100%; }
     .profile-card { width: min(100%, 21rem); }
+    .profile-image { min-height: 0; }
+    .brand-name { font-size: 0.88rem; }
     .about-section { padding: 4rem 0; }
     .projects-section { padding: 4rem 0; }
     .skills-section { padding: 4rem 0; }
