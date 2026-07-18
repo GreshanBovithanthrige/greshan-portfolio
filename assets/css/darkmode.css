@@ -33,11 +33,14 @@
 [data-theme="dark"] .skill-card:hover { border-color: #3b6f9f; }
 [data-theme="dark"] .skill-card__icon { color: #79c0ff; background: #172b48; }
 [data-theme="dark"] .skill-badges span { background: var(--surface-subtle); border-color: var(--border-color); }
-[data-theme="dark"] .journey-card { background: var(--surface-color); }
-[data-theme="dark"] .journey-card:hover, [data-theme="dark"] .highlight-card:hover { border-color: #3b6f9f; }
-[data-theme="dark"] .journey-marker { color: #79c0ff; background: #172b48; border-color: #29486e; }
-[data-theme="dark"] .journey-card__period { color: #74d28b; background: #12251a; border-color: #285a36; }
+[data-theme="dark"] .journey-stat, [data-theme="dark"] .timeline-role-card { background: var(--surface-color); }
+[data-theme="dark"] .timeline-role-card--current { background: linear-gradient(145deg, #172b48, #132238); border-color: #3b6f9f; }
+[data-theme="dark"] .timeline-role-card:hover, [data-theme="dark"] .highlight-card:hover { border-color: #3b6f9f; }
+[data-theme="dark"] .company-monogram, [data-theme="dark"] .sdl-section__monogram { color: #79c0ff; background: #172b48; border-color: #29486e; }
+[data-theme="dark"] .timeline-node { background: var(--background-color); border-color: #79c0ff; box-shadow: 0 0 0 5px var(--surface-color); }
+[data-theme="dark"] .timeline-badges span { background: var(--surface-subtle); border-color: var(--border-color); }
+[data-theme="dark"] .timeline-current { color: #74d28b; background: #12251a; border-color: #285a36; }
+[data-theme="dark"] .timeline-promotion .badge { color: #79c0ff; background: #172b48; border-color: #3b6f9f; }
 [data-theme="dark"] .highlight-card { background: var(--surface-subtle); }
 [data-theme="dark"] .highlight-card i { color: #79c0ff; }
-[data-theme="dark"] .focus-callout { background: linear-gradient(135deg, #172b48, #132238); border-color: #29486e; }
-[data-theme="dark"] .focus-callout__icon { color: #79c0ff; background: var(--surface-color); }
+[data-theme="dark"] .sdl-section { background: linear-gradient(135deg, #172b48, #132238); border-color: #29486e; }

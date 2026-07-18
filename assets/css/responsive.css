@@ -24,8 +24,16 @@
     .about-facts { grid-template-columns: 1fr; }
     .fact-card { min-height: auto; flex-direction: row; align-items: center; gap: 1rem; }
     .fact-card > i { flex: 0 0 auto; margin: 0; }
-    .journey-card__header { display: block; }
-    .journey-card__period { display: inline-block; margin-bottom: 0.85rem; }
-    .focus-callout { gap: 0.9rem; padding: 1.2rem; }
-    .focus-callout__icon { width: 2.35rem; height: 2.35rem; }
+    .journey-overview { grid-template-columns: 1fr; }
+    .premium-timeline { gap: 1rem; }
+    .premium-timeline::before { left: 0.6rem; transform: none; }
+    .timeline-entry { grid-template-columns: 1.2rem 1fr; gap: 1rem; align-items: start; }
+    .timeline-entry--left .timeline-role-card, .timeline-entry--right .timeline-role-card { grid-column: 2; }
+    .timeline-entry--left .timeline-node, .timeline-entry--right .timeline-node { grid-column: 1; grid-row: 1; margin-top: 1.35rem; }
+    .timeline-role-card .card-body { padding: 1.15rem; }
+    .timeline-promotion { justify-items: start; min-height: 4rem; padding-left: 2.2rem; text-align: left; }
+    .timeline-promotion__line { left: 0.6rem; transform: none; }
+    .timeline-promotion p { text-align: left; }
+    .sdl-section { grid-template-columns: 1fr; gap: 1rem; padding: 1.25rem; }
+    .philosophy-section { gap: 1rem; }
 }
