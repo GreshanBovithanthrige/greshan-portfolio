@@ -1,0 +1,13 @@
+/* Motion is intentionally restrained and disabled when requested. */
+.hero-content, .hero-visual { opacity: 0; transform: translateY(16px); }
+.page-ready .hero-content, .page-ready .hero-visual { opacity: 1; transform: translateY(0); transition: opacity 420ms ease, transform 420ms ease; }
+.page-ready .hero-visual { transition-delay: 100ms; }
+
+.reveal { opacity: 1; transform: none; }
+.page-ready .reveal { opacity: 0; transform: translateY(16px); transition: opacity 420ms ease, transform 420ms ease; }
+.page-ready .reveal.is-visible { opacity: 1; transform: translateY(0); }
+.page-ready .reveal--delayed.is-visible { transition-delay: 100ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}

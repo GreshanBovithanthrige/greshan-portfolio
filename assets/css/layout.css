@@ -1,0 +1,44 @@
+/* Page-level layout. */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    min-height: var(--header-height);
+    border-bottom: 1px solid transparent;
+    background: transparent;
+    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, backdrop-filter 180ms ease;
+}
+
+.site-header.is-scrolled {
+    border-color: color-mix(in srgb, var(--border-color) 75%, transparent);
+    background: color-mix(in srgb, var(--background-color) 82%, transparent);
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(14px) saturate(145%);
+    -webkit-backdrop-filter: blur(14px) saturate(145%);
+}
+
+.site-header .navbar { min-height: var(--header-height); }
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - var(--header-height));
+    padding: 4.5rem 0;
+    background: linear-gradient(135deg, var(--background-color) 0%, var(--background-color) 62%, #f4f8ff 100%);
+}
+
+.hero .row { width: 100%; }
+
+.hero-content { max-width: 46rem; }
+
+.hero-visual {
+    display: flex;
+    justify-content: center;
+}
