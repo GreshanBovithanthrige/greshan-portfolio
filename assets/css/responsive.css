@@ -16,6 +16,7 @@
     .hero-actions .btn { width: 100%; }
     .profile-card { width: min(100%, 21rem); }
     .about-section { padding: 4rem 0; }
+    .projects-section { padding: 4rem 0; }
     .about-facts { grid-template-columns: 1fr; }
     .fact-card { min-height: auto; flex-direction: row; align-items: center; gap: 1rem; }
     .fact-card > i { flex: 0 0 auto; margin: 0; }

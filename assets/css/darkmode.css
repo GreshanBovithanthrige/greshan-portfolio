@@ -24,3 +24,9 @@
 [data-theme="dark"] .fact-card { background: var(--surface-color); }
 [data-theme="dark"] .fact-card:hover { border-color: #3b6f9f; }
 [data-theme="dark"] .fact-card > i { color: #79c0ff; background: #172b48; }
+[data-theme="dark"] .project-card { background: var(--surface-color); }
+[data-theme="dark"] .project-card:hover { border-color: #3b6f9f; }
+[data-theme="dark"] .project-card__icon { color: #79c0ff; background: #172b48; }
+[data-theme="dark"] .project-status { color: #74d28b; background: #12251a; border-color: #285a36; }
+[data-theme="dark"] .project-technologies span { background: var(--surface-subtle); border-color: var(--border-color); }
+[data-theme="dark"] .project-card .card-footer { background: var(--surface-color); }

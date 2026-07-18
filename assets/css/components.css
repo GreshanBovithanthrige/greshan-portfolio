@@ -122,3 +122,22 @@
 .fact-card > i { width: 2.4rem; height: 2.4rem; display: grid; place-items: center; margin-bottom: 1.2rem; color: var(--primary-color); font-size: 1.2rem; background: #eaf3ff; border-radius: 0.55rem; }
 .fact-card span { display: block; margin-bottom: 0.3rem; color: var(--text-secondary); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
 .fact-card strong { color: var(--text-primary); font-size: 0.95rem; line-height: 1.4; }
+
+/* Featured projects */
+.projects-section { padding: 5rem 0; background: var(--background-color); }
+.section-heading { max-width: 46rem; margin-bottom: 2.6rem; }
+.section-heading .section-title { max-width: none; }
+.section-heading .section-intro { margin-bottom: 0; }
+.project-card { overflow: hidden; border: 1px solid var(--border-color); border-radius: 0.85rem; box-shadow: var(--shadow-sm); transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease; }
+.project-card:hover { border-color: #9cc4f4; box-shadow: var(--shadow-md); transform: translateY(-4px); }
+.project-card .card-body { display: flex; flex-direction: column; padding: 1.35rem; }
+.project-card__top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; }
+.project-card__icon { display: grid; width: 2.5rem; height: 2.5rem; place-items: center; color: var(--primary-color); font-size: 1.2rem; background: #eaf3ff; border-radius: 0.55rem; }
+.project-status { padding: 0.35rem 0.55rem; color: #1f5c35; font-size: 0.7rem; font-weight: 700; background: #eaf7ed; border: 1px solid #b5dfc2; }
+.project-card .card-title { margin-bottom: 0.75rem; color: var(--text-primary); font-size: 1.05rem; font-weight: 700; line-height: 1.35; }
+.project-card .card-text { margin-bottom: 1.25rem; color: var(--text-secondary); font-size: 0.9rem; }
+.project-technologies { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto; }
+.project-technologies span { padding: 0.25rem 0.45rem; color: var(--text-secondary); font-size: 0.72rem; font-weight: 600; background: var(--surface-color); border: 1px solid var(--border-subtle); border-radius: 0.35rem; }
+.project-card .card-footer { padding: 0 1.35rem 1.35rem; background: var(--background-color); border: 0; }
+.project-card .btn:disabled { color: var(--text-secondary); pointer-events: none; border-color: var(--border-color); opacity: 0.82; }
+.project-card .btn i { margin-left: 0.25rem; }
