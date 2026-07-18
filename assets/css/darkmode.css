@@ -54,3 +54,7 @@
 [data-theme="dark"] .detail-page .site-header { background: transparent; }
 [data-theme="dark"] .detail-hero { background: linear-gradient(135deg, #0d1117 0%, #0d1117 62%, #101c30 100%); }
 [data-theme="dark"] .detail-shell .card { background: var(--surface-color); }
+[data-theme="dark"] .contact-profile-card, [data-theme="dark"] .launch-cta__content { background: linear-gradient(145deg, #172b48, #132238); border-color: #29486e; }
+[data-theme="dark"] .contact-action { background: var(--surface-color); }
+[data-theme="dark"] .contact-action:hover { border-color: #3b6f9f; }
+[data-theme="dark"] .contact-action > i:first-child, [data-theme="dark"] .contact-profile-card__icon { color: #79c0ff; background: #172b48; }

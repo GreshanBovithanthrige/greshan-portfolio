@@ -3,6 +3,7 @@
     .navbar-collapse { padding: 0.7rem 0 0.9rem; }
     .nav-link.active::after { display: none; }
     .nav-link.active { color: var(--primary-color); }
+    .nav-cv-link { display: inline-flex; margin-top: 0.45rem; }
 }
 
 @media (min-width: 992px) {
@@ -43,4 +44,13 @@
     .detail-hero { padding: 6rem 0 3rem; }
     .detail-shell { padding: 3rem 0; }
     .detail-shell .card { padding: 1.4rem; }
+    .contact-section { padding: 4rem 0; }
+    .contact-profile-card .card-body { padding: 1.3rem; }
+    .contact-action { min-height: 4.1rem; padding: 0.8rem; }
+    .launch-cta { padding-bottom: 4rem; }
+    .launch-cta__content { padding: 1.3rem; }
+    .launch-cta__actions { display: grid; grid-template-columns: 1fr; width: 100%; }
+    .launch-cta__actions .btn { width: 100%; }
+    .site-footer { padding-top: 3rem; }
+    .site-footer__bottom { display: grid; margin-top: 1.75rem; }
 }

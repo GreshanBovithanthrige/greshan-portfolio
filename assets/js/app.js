@@ -4,4 +4,11 @@ window.addEventListener("DOMContentLoaded", () => {
     window.PortfolioScroll?.init();
     window.PortfolioTheme?.init();
     window.PortfolioAnimations?.init();
+
+    const year = document.querySelector("[data-current-year]");
+    if (year) {
+        const currentYear = String(new Date().getFullYear());
+        year.textContent = currentYear;
+        year.dateTime = currentYear;
+    }
 });
