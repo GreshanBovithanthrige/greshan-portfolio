@@ -34,8 +34,6 @@
     background: linear-gradient(135deg, var(--background-color) 0%, var(--background-color) 62%, #f4f8ff 100%);
 }
 
-.hero .row { width: 100%; }
-
 .hero-content { max-width: 46rem; }
 
 .hero-visual {
