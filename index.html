@@ -35,18 +35,18 @@
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/darkmode.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#primary-navigation" data-bs-offset="100">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header" id="site-header">
-        <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
+        <nav class="navbar navbar-expand-xl" aria-label="Primary navigation">
             <div class="container">
                 <a class="navbar-brand" href="#home" aria-label="Greshan Bovithanthrige home">
                     <span class="brand-monogram" aria-hidden="true">GB</span>
                     <span class="brand-name">Greshan <span>Bovithanthrige</span></span>
                 </a>
 
-                <div class="header-actions ms-auto order-lg-2">
+                <div class="header-actions ms-auto order-xl-2">
                     <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
                         <i class="bi bi-moon-stars" aria-hidden="true"></i>
                     </button>
@@ -55,12 +55,16 @@
                     </button>
                 </div>
 
-                <div class="collapse navbar-collapse order-lg-1" id="primary-navigation">
-                    <ul class="navbar-nav ms-lg-auto align-items-lg-center">
+                <div class="collapse navbar-collapse order-xl-1" id="primary-navigation">
+                    <ul class="navbar-nav ms-xl-auto align-items-xl-center">
                         <li class="nav-item"><a class="nav-link active" href="#home" aria-current="page">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
                         <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#innovation">Innovation</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         <li class="nav-item ms-lg-2"><a class="btn btn-outline-primary btn-sm nav-cv-link" href="assets/files/Greshan-Bovithanthrige-CV.pdf" download><i class="bi bi-download" aria-hidden="true"></i> Download CV</a></li>
                     </ul>
@@ -76,7 +80,7 @@
                     <div class="col-lg-7 hero-content">
                         <p class="eyebrow"><span aria-hidden="true"></span> Senior IT Engineer (Infrastructure)</p>
                         <h1 id="hero-title">Greshan Bovithanthrige</h1>
-                        <p class="hero-role">Microsoft infrastructure specialist and founder of <a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a>.</p>
+                        <p class="hero-role">Microsoft infrastructure specialist and founder of <a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a>.</p>
                         <p class="hero-intro">I design and support reliable Microsoft cloud and enterprise infrastructure, bringing together Microsoft 365, Azure, Windows Server, automation, and practical operational discipline.</p>
                         <p class="hero-identity">Known to many colleagues as <strong>“G”</strong>, and locally by friends and colleagues as <strong>“ධනංජය”</strong>.</p>
                         <div class="hero-actions">
@@ -95,7 +99,7 @@
                         <figure class="profile-card">
                             <div class="profile-card__grid" aria-hidden="true"></div>
                             <img class="profile-image" src="assets/images/profile/hero%20image%20-%20compressed.png" alt="Greshan Bovithanthrige" width="1537" height="1023" fetchpriority="high" decoding="async">
-                            <figcaption class="profile-card__status"><span aria-hidden="true"></span> Founder, <a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a></figcaption>
+                            <figcaption class="profile-card__status"><span aria-hidden="true"></span> Founder, <a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a></figcaption>
                         </figure>
                     </div>
                 </div>
@@ -108,7 +112,7 @@
                     <div class="col-lg-7 reveal">
                         <p class="eyebrow"><span aria-hidden="true"></span> About me</p>
                         <h2 class="section-title" id="about-title">Engineering systems people can depend on.</h2>
-                        <p class="section-intro">I’m Greshan Bovithanthrige, a Sri Lankan Infrastructure Engineer focused on Microsoft Infrastructure, Microsoft 365, Azure, Windows Server, and practical automation. Alongside my work in enterprise technology, I founded <a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a> to explore and share dependable, security-minded digital solutions.</p>
+                        <p class="section-intro">I’m Greshan Bovithanthrige, a Sri Lankan Infrastructure Engineer focused on Microsoft Infrastructure, Microsoft 365, Azure, Windows Server, and practical automation. Alongside my work in enterprise technology, I founded <a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a> to explore and share dependable, security-minded digital solutions.</p>
 
                         <div class="about-detail">
                             <section aria-labelledby="strengths-title">
@@ -134,7 +138,7 @@
                             </article>
                             <article class="fact-card">
                                 <i class="bi bi-stars" aria-hidden="true"></i>
-                                <div><span>Founder</span><strong><a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a><br>&amp; practical innovation</strong></div>
+                                <div><span>Founder</span><strong><a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a><br>&amp; practical innovation</strong></div>
                             </article>
                             <article class="fact-card">
                                 <i class="bi bi-shield-check" aria-hidden="true"></i>
@@ -158,49 +162,49 @@
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-microsoft project-card__icon" aria-hidden="true"></i><span class="badge project-status">Active</span></div><h3 class="card-title">Microsoft 365 Administration</h3><p class="card-text">Secure, reliable administration of the modern workplace platform, from user lifecycle management to collaboration services.</p><div class="project-technologies" aria-label="Technologies used"><span>Microsoft 365</span><span>Teams</span><span>Security</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-envelope-arrow-up project-card__icon" aria-hidden="true"></i><span class="badge project-status">Delivered</span></div><h3 class="card-title">Exchange Online Migration &amp; Administration</h3><p class="card-text">Mailbox migration, service administration, and operational support designed for a dependable email platform.</p><div class="project-technologies" aria-label="Technologies used"><span>Exchange Online</span><span>Microsoft 365</span><span>Migration</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-cloud-check project-card__icon" aria-hidden="true"></i><span class="badge project-status">Active</span></div><h3 class="card-title">Azure &amp; Microsoft Entra ID</h3><p class="card-text">Cloud identity and access foundations that support secure authentication, governance, and scalable operations.</p><div class="project-technologies" aria-label="Technologies used"><span>Azure</span><span>Entra ID</span><span>Identity</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-laptop project-card__icon" aria-hidden="true"></i><span class="badge project-status">Active</span></div><h3 class="card-title">Microsoft Intune Device Management</h3><p class="card-text">Managed device configuration and policy delivery that helps keep endpoints productive, compliant, and secure.</p><div class="project-technologies" aria-label="Technologies used"><span>Intune</span><span>Endpoint</span><span>Compliance</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-server project-card__icon" aria-hidden="true"></i><span class="badge project-status">Lab</span></div><h3 class="card-title">Hyper-V Home Lab</h3><p class="card-text">A safe, hands-on environment for validating infrastructure designs, services, and troubleshooting approaches.</p><div class="project-technologies" aria-label="Technologies used"><span>Hyper-V</span><span>Windows Server</span><span>Networking</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-terminal project-card__icon" aria-hidden="true"></i><span class="badge project-status">Ongoing</span></div><h3 class="card-title">PowerShell Automation</h3><p class="card-text">Practical scripts that reduce repetitive administration, improve consistency, and support clear operational reporting.</p><div class="project-technologies" aria-label="Technologies used"><span>PowerShell</span><span>Automation</span><span>Reporting</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-diagram-3 project-card__icon" aria-hidden="true"></i><span class="badge project-status">Delivered</span></div><h3 class="card-title">SharePoint Solutions</h3><p class="card-text">Collaboration and information-management solutions that make documents, knowledge, and team processes easier to manage.</p><div class="project-technologies" aria-label="Technologies used"><span>SharePoint</span><span>Microsoft 365</span><span>Collaboration</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <article class="card project-card h-100">
                             <div class="card-body"><div class="project-card__top"><i class="bi bi-telephone project-card__icon" aria-hidden="true"></i><span class="badge project-status">Delivered</span></div><h3 class="card-title">VoIP &amp; Telephony Deployments</h3><p class="card-text">Deployment and support of business telephony services, with attention to connectivity, continuity, and user experience.</p><div class="project-technologies" aria-label="Technologies used"><span>VoIP</span><span>Networking</span><span>Deployment</span></div></div>
-                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">— project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
+                            <div class="card-footer"><button class="btn btn-outline-primary btn-sm" type="button" disabled aria-disabled="true">View Details <span class="visually-hidden">- project details coming soon</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></button></div>
                         </article>
                     </div>
                 </div>
@@ -388,7 +392,7 @@
                     </li>
                     <li class="timeline-entry timeline-entry--right">
                         <span class="timeline-node" aria-hidden="true"></span>
-                        <article class="card timeline-role-card timeline-role-card--current"><div class="card-body"><div class="timeline-role-card__header"><span class="company-monogram">SDL</span><div><p><a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a></p><h3>Founder &amp; Technology Solutions Consultant</h3><p class="timeline-date"><time datetime="2026-05">May 2026</time> – Present</p></div><span class="badge timeline-current">Current</span></div><p class="timeline-summary">Building an independent consultancy that delivers digital marketing and technology solutions today, with a deliberate expansion path into Microsoft cloud, infrastructure, cybersecurity, automation, and managed IT services.</p><div class="timeline-badges"><span>Technology Consulting</span><span>Digital Solutions</span><span>Automation</span><span>Cloud</span></div></div></article>
+                        <article class="card timeline-role-card timeline-role-card--current"><div class="card-body"><div class="timeline-role-card__header"><span class="company-monogram">SDL</span><div><p><a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a></p><h3>Founder &amp; Technology Solutions Consultant</h3><p class="timeline-date"><time datetime="2026-05">May 2026</time> – Present</p></div><span class="badge timeline-current">Current</span></div><p class="timeline-summary">Building an independent consultancy that delivers digital marketing and technology solutions today, with a deliberate expansion path into Microsoft cloud, infrastructure, cybersecurity, automation, and managed IT services.</p><div class="timeline-badges"><span>Technology Consulting</span><span>Digital Solutions</span><span>Automation</span><span>Cloud</span></div></div></article>
                     </li>
                 </ol>
 
@@ -409,7 +413,7 @@
 
                 <section class="sdl-section reveal" aria-labelledby="sdl-title">
                     <div class="sdl-section__monogram" aria-hidden="true">SDL</div>
-                    <div><p class="eyebrow"><span aria-hidden="true"></span> Independent consultancy</p><h3 id="sdl-title"><a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a></h3><p><a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a> is my technology consultancy. Today, it actively delivers digital marketing and technology solutions to real clients while strategically expanding into Microsoft cloud, infrastructure, cybersecurity, automation, and managed IT services.</p><p class="sdl-section__note">The <a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a> website is currently under development.</p><a class="btn btn-primary" href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Visit Secure Digital Labs <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+                    <div><p class="eyebrow"><span aria-hidden="true"></span> Independent consultancy</p><h3 id="sdl-title"><a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a></h3><p><a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a> is my technology consultancy. Today, it actively delivers digital marketing and technology solutions to real clients while strategically expanding into Microsoft cloud, infrastructure, cybersecurity, automation, and managed IT services.</p><p class="sdl-section__note">The <a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a> website is currently under development.</p><a class="btn btn-primary" href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Visit Secure Digital Labs <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
                 </section>
 
                 <section class="philosophy-section reveal" aria-labelledby="philosophy-title">
@@ -441,14 +445,14 @@
                         <article class="card innovation-card h-100"><div class="card-body"><div class="innovation-card__top"><i class="bi bi-terminal innovation-card__icon" aria-hidden="true"></i><span class="badge innovation-status">Active</span></div><h3>Automation &amp; Productivity</h3><p>Practical PowerShell and AutoHotkey work that improves engineering workflows, ticket handling, repetitive administration, and operational efficiency. This includes thoughtful AI-assisted engineering workflows that accelerate research and documentation without replacing judgement.</p><div class="innovation-badges"><span>PowerShell</span><span>AutoHotkey</span><span>Automation</span><span>Workflow Optimisation</span><span>AI Workflows</span></div></div><div class="card-footer"><a class="btn btn-outline-primary btn-sm" href="projects/automation-productivity.html">Read More <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></article>
                     </div>
                     <div class="col-md-6">
-                        <article class="card innovation-card h-100"><div class="card-body"><div class="innovation-card__top"><i class="bi bi-journal-text innovation-card__icon" aria-hidden="true"></i><span class="badge innovation-status innovation-status--ongoing">Ongoing</span></div><h3>Documentation &amp; Knowledge Management</h3><p>Documentation is an engineering discipline: infrastructure, projects, configuration, troubleshooting, maintenance, knowledge transfer, engineering decisions, and repeatable procedures. It extends beyond IT—generator maintenance notes capture tool sizes, component specifications, part numbers, inspection points, schedules, and operational observations.</p><div class="innovation-badges"><span>Documentation</span><span>Maintenance</span><span>Knowledge Transfer</span><span>Procedures</span><span>Engineering Decisions</span></div></div><div class="card-footer"><a class="btn btn-outline-primary btn-sm" href="projects/documentation.html">Read More <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></article>
+                        <article class="card innovation-card h-100"><div class="card-body"><div class="innovation-card__top"><i class="bi bi-journal-text innovation-card__icon" aria-hidden="true"></i><span class="badge innovation-status innovation-status--ongoing">Ongoing</span></div><h3>Documentation &amp; Knowledge Management</h3><p>Documentation is an engineering discipline: infrastructure, projects, configuration, troubleshooting, maintenance, knowledge transfer, engineering decisions, and repeatable procedures. It extends beyond IT; generator maintenance notes capture tool sizes, component specifications, part numbers, inspection points, schedules, and operational observations.</p><div class="innovation-badges"><span>Documentation</span><span>Maintenance</span><span>Knowledge Transfer</span><span>Procedures</span><span>Engineering Decisions</span></div></div><div class="card-footer"><a class="btn btn-outline-primary btn-sm" href="projects/documentation.html">Read More <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></article>
                     </div>
                 </div>
 
                 <section class="currently-building reveal" aria-labelledby="building-title">
                     <div class="journey-highlights__header"><h3 id="building-title">Currently Building</h3><p>Active long-term initiatives that turn ongoing learning into useful engineering work.</p></div>
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
-                        <div class="col"><article class="card building-card h-100"><i class="bi bi-stars" aria-hidden="true"></i><span><a href="https://securedigitallabs.com/" target="_blank" rel="noreferrer">Secure Digital Labs</a></span></article></div>
+                        <div class="col"><article class="card building-card h-100"><i class="bi bi-stars" aria-hidden="true"></i><span><a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noreferrer">Secure Digital Labs</a></span></article></div>
                         <div class="col"><article class="card building-card h-100"><i class="bi bi-hdd-rack" aria-hidden="true"></i><span>Enterprise Home Lab</span></article></div>
                         <div class="col"><article class="card building-card h-100"><i class="bi bi-window-stack" aria-hidden="true"></i><span><a href="projects/engineering-portfolio.html">Engineering Portfolio</a></span></article></div>
                         <div class="col"><article class="card building-card h-100"><i class="bi bi-terminal" aria-hidden="true"></i><span>Microsoft Automation Toolkit</span></article></div>
@@ -457,7 +461,7 @@
                     </div>
                 </section>
 
-                <aside class="beyond-engineering reveal" aria-labelledby="beyond-title"><i class="bi bi-speaker beyond-engineering__icon" aria-hidden="true"></i><div><p class="eyebrow"><span aria-hidden="true"></span> Beyond engineering</p><h3 id="beyond-title">Vintage Hi-Fi, electronics, and repairability.</h3><p>I enjoy collecting and restoring classic audio equipment—an interest that reinforces patience, practical diagnosis, and respect for well-engineered, repairable systems.</p></div></aside>
+                <aside class="beyond-engineering reveal" aria-labelledby="beyond-title"><i class="bi bi-speaker beyond-engineering__icon" aria-hidden="true"></i><div><p class="eyebrow"><span aria-hidden="true"></span> Beyond engineering</p><h3 id="beyond-title">Vintage Hi-Fi, electronics, and repairability.</h3><p>I enjoy collecting vintage Japanese audio equipment, classic amateur (ham) radio equipment, and analogue communications equipment featuring traditional CRT signal displays and tuning instruments. These interests reinforce patience, practical diagnosis and an appreciation for well-engineered, repairable systems.</p></div></aside>
             </div>
         </section>
 
@@ -466,7 +470,7 @@
                 <div class="section-heading reveal">
                     <p class="eyebrow"><span aria-hidden="true"></span> Get in touch</p>
                     <h2 class="section-title" id="contact-title">Let’s connect.</h2>
-                    <p class="section-intro">I’m a Senior IT Infrastructure Engineer and the founder of <a href="https://securedigitallabs.com/" target="_blank" rel="noopener noreferrer">Secure Digital Labs</a>, based in Sri Lanka.</p>
+                    <p class="section-intro">I’m a Senior IT Infrastructure Engineer and the founder of <a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noopener noreferrer">Secure Digital Labs</a>, based in Sri Lanka.</p>
                 </div>
                 <div class="row g-4 align-items-stretch reveal reveal--delayed">
                     <div class="col-lg-5">
@@ -481,10 +485,10 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="contact-actions" aria-label="Contact options">
-                            <a class="contact-action" href="mailto:hello@securedigitallabs.com"><i class="bi bi-envelope" aria-hidden="true"></i><span><strong>Email</strong><small>Start a conversation</small></span><i class="bi bi-arrow-up-right contact-action__arrow" aria-hidden="true"></i></a>
+                            <a class="contact-action" href="mailto:greshan@securedigitallabs.com"><i class="bi bi-envelope" aria-hidden="true"></i><span><strong>Email</strong><small>Start a conversation</small></span><i class="bi bi-arrow-up-right contact-action__arrow" aria-hidden="true"></i></a>
                             <a class="contact-action" href="https://www.linkedin.com/in/greshanbovithanthrige/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i><span><strong>LinkedIn</strong><small>Connect professionally</small></span><i class="bi bi-arrow-up-right contact-action__arrow" aria-hidden="true"></i></a>
                             <a class="contact-action" href="https://github.com/GreshanBovithanthrige" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i><span><strong>GitHub</strong><small>View engineering work</small></span><i class="bi bi-arrow-up-right contact-action__arrow" aria-hidden="true"></i></a>
-                            <a class="contact-action" href="https://securedigitallabs.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-stars" aria-hidden="true"></i><span><strong>Secure Digital Labs</strong><small>Visit the consultancy</small></span><i class="bi bi-arrow-up-right contact-action__arrow" aria-hidden="true"></i></a>
+                            <a class="contact-action" href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noopener noreferrer"><i class="bi bi-stars" aria-hidden="true"></i><span><strong>Secure Digital Labs</strong><small>Visit the consultancy</small></span><i class="bi bi-arrow-up-right contact-action__arrow" aria-hidden="true"></i></a>
                             <a class="contact-action" href="assets/files/Greshan-Bovithanthrige-CV.pdf" download><i class="bi bi-download" aria-hidden="true"></i><span><strong>Download CV</strong><small>PDF curriculum vitae</small></span><i class="bi bi-download contact-action__arrow" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -519,16 +523,19 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <h2>Quick Navigation</h2>
-                    <ul class="list-unstyled"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Professional Journey</a></li><li><a href="#contact">Contact</a></li></ul>
+                    <ul class="list-unstyled"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Technical Skills</a></li><li><a href="#certifications">Licences &amp; Certifications</a></li><li><a href="#languages">Languages</a></li><li><a href="#experience">Professional Journey</a></li><li><a href="#innovation">Innovation</a></li><li><a href="#contact">Contact</a></li></ul>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <h2>Connect</h2>
-                    <ul class="list-unstyled"><li><a href="https://github.com/GreshanBovithanthrige" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a></li><li><a href="https://www.linkedin.com/in/greshanbovithanthrige/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://securedigitallabs.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-stars" aria-hidden="true"></i> Secure Digital Labs</a></li><li><a href="assets/files/Greshan-Bovithanthrige-CV.pdf" download><i class="bi bi-download" aria-hidden="true"></i> Download CV</a></li></ul>
+                    <ul class="list-unstyled"><li><a href="https://github.com/GreshanBovithanthrige" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a></li><li><a href="https://www.linkedin.com/in/greshanbovithanthrige/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://securedigitallabs.com/?from=portfolio" target="_blank" rel="noopener noreferrer"><i class="bi bi-stars" aria-hidden="true"></i> Secure Digital Labs</a></li><li><a href="assets/files/Greshan-Bovithanthrige-CV.pdf" download><i class="bi bi-download" aria-hidden="true"></i> Download CV</a></li></ul>
                 </div>
             </div>
             <div class="site-footer__bottom"><p>© <time data-current-year datetime="2026">2026</time> Greshan Bovithanthrige</p><p>Designed, built and maintained by Greshan Bovithanthrige.</p></div>
         </div>
     </footer>
+
+    <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+    <button class="btn btn-primary back-to-top" id="back-to-top" type="button" aria-label="Back to top" aria-hidden="true"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
 
     <script type="application/ld+json">
     {
@@ -538,7 +545,7 @@
         "jobTitle": "Senior IT Engineer (Infrastructure)",
         "url": "https://greshanbovithanthrige.github.io/greshan-portfolio/",
         "image": "https://greshanbovithanthrige.github.io/greshan-portfolio/assets/images/profile/hero%20image%20-%20compressed.png",
-        "sameAs": ["https://github.com/GreshanBovithanthrige", "https://www.linkedin.com/in/greshanbovithanthrige/", "https://securedigitallabs.com/"],
+        "sameAs": ["https://github.com/GreshanBovithanthrige", "https://www.linkedin.com/in/greshanbovithanthrige/", "https://securedigitallabs.com/?from=portfolio"],
         "address": {"@type": "PostalAddress", "addressCountry": "LK"}
     }
     </script>

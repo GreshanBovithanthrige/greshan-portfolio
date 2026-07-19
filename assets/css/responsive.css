@@ -1,12 +1,13 @@
 /* Mobile-first responsive adjustments. */
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
     .navbar-collapse { padding: 0.7rem 0 0.9rem; }
     .nav-link.active::after { display: none; }
     .nav-link.active { color: var(--primary-color); }
     .nav-cv-link { display: inline-flex; margin-top: 0.45rem; }
+    .reading-progress { display: none; }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .header-actions { margin-left: 1.25rem; }
     .navbar-nav { gap: 0.15rem; }
 }
@@ -38,7 +39,6 @@
     .timeline-entry--left .timeline-node, .timeline-entry--right .timeline-node { grid-column: 1; grid-row: 1; margin-top: 1.35rem; }
     .timeline-role-card .card-body { padding: 1.15rem; }
     .timeline-promotion { justify-items: start; min-height: 4rem; padding-left: 2.2rem; text-align: left; }
-    .timeline-promotion__line { left: 0.6rem; transform: none; }
     .timeline-promotion p { text-align: left; }
     .sdl-section { grid-template-columns: 1fr; gap: 1rem; padding: 1.25rem; }
     .philosophy-section { gap: 1rem; }
@@ -57,4 +57,5 @@
     .launch-cta__actions .btn { width: 100%; }
     .site-footer { padding-top: 3rem; }
     .site-footer__bottom { display: grid; margin-top: 1.75rem; }
+    .back-to-top { right: 1rem; bottom: 1rem; }
 }
