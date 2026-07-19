@@ -21,6 +21,10 @@
     .about-section { padding: 4rem 0; }
     .projects-section { padding: 4rem 0; }
     .skills-section { padding: 4rem 0; }
+    .certifications-section { padding: 4rem 0; }
+    .learning-section { padding-bottom: 1.5rem; }
+    .learning-card .card-body { align-items: flex-start; padding: 1.1rem; }
+    .languages-section { padding: 1.5rem 0 4rem; }
     .journey-section { padding: 4rem 0; }
     .innovation-section { padding: 4rem 0; }
     .about-facts { grid-template-columns: 1fr; }

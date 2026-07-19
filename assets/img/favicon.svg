@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#0969da"/>
-  <path fill="#fff" d="M13 17h17.5v6H20v18h10.5v6H13V17Zm22 0h16v6H41v6h9v6h-9v6h10v6H35V17Z"/>
+  <text x="32" y="41" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-2" text-anchor="middle">GB</text>
 </svg>
