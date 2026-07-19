@@ -296,7 +296,7 @@
 .detail-hero .container { max-width: 72rem; }
 .detail-hero .section-title { max-width: 20ch; margin-bottom: 1rem; }
 .detail-hero .section-intro { max-width: 42rem; margin-bottom: 0; }
-.detail-shell { max-width: 48rem; padding: 4rem 0; }
+.detail-shell { max-width: 48rem; padding: 4rem 0; margin-inline: auto; }
 .detail-shell .container { max-width: 48rem; }
 .detail-shell .card { padding: 2rem; border: 1px solid var(--border-color); border-radius: 0.9rem; background: var(--surface-color); box-shadow: var(--shadow-sm); }
 .detail-shell__icon { display: grid; width: 3rem; height: 3rem; place-items: center; margin-bottom: 1.25rem; color: var(--primary-color); font-size: 1.35rem; background: #eaf3ff; border-radius: 0.7rem; }
