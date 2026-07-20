@@ -4,8 +4,15 @@ window.PortfolioNavigation = (() => {
         const header = document.querySelector(".site-header");
         const links = [...document.querySelectorAll(".nav-link")];
         const sections = links
+            .filter((link) => link.getAttribute("href")?.startsWith("#"))
             .map((link) => ({ link, section: document.querySelector(link.getAttribute("href")) }))
             .filter(({ section }) => section);
+        const homeLink = links.find((link) => link.getAttribute("href") === "/");
+        const homeSection = document.getElementById("home");
+
+        if (homeLink && homeSection) {
+            sections.unshift({ link: homeLink, section: homeSection });
+        }
 
         const setActiveLink = (target) => {
             links.forEach((link) => {
