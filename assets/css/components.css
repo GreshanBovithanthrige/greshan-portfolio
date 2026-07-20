@@ -303,6 +303,7 @@
 .detail-shell h2 { margin-bottom: 0.75rem; color: var(--secondary-color); font-size: 1.4rem; font-weight: 800; }
 .detail-shell p { color: var(--text-secondary); }
 .detail-page .site-footer { margin-top: auto; }
+.error-page .detail-shell .btn { display: inline-flex; align-items: center; min-height: 44px !important; }
 
 /* Launch contact and footer. */
 .nav-cv-link { white-space: nowrap; }
